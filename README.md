@@ -23,5 +23,6 @@ ffmpeg -r 30 -i ./output/%d.png -vcodec libx264 -pix_fmt yuv420p -r 30 ./sample-
 ```
 
 # TODO
+- [ ] Add example gif video to README.md
 - [ ] Refactor scripts
 - [ ] Add transfer frame images to video using FFmpeg in script
